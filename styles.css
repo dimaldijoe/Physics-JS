@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #111116;
+    font-family: system-ui, sans-serif;
+    color: #fff;
+}
+
+#ui-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(25, 25, 35, 0.85);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    border: 1px solid #333345;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+h1 { margin: 0 0 5px 0; font-size: 1.5rem; color: #ec3750; } /* Hack Club Red */
+p { margin: 0 0 15px 0; font-size: 0.9rem; color: #a1a1aa; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+input[type="range"] { width: 100%; cursor: pointer; }
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
